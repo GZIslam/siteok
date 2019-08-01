@@ -67,7 +67,7 @@ body{
   width: 134px;
   height: 57px;
   left: 893px;
-  top: 700px;
+  top: 650px;
   opacity: 0;
   background-color: white;
   z-index: 999;
@@ -180,7 +180,7 @@ footer{
   position: absolute;
   width: 90px;
   height: 31px;
-  left: 920px;
+  left: 910px;
   top: 5px;
   background: url('../img/footer-logo.png');
 }
@@ -191,6 +191,9 @@ footer{
   left: 542px;
   top: 1763px;
   background: url('../img/greentick.png');
+}
+.z{
+  margin-top: -50px;
 }
 .zakaz{
   background: url('../img/zakaz.png');
@@ -229,9 +232,6 @@ footer{
   .footer-logo{
     margin-left: -283px;
   }
-  .btn{
-    margin-left: -283px;
-  }
 }
 @media screen and (max-width: 1300px){
   .ine{
@@ -247,9 +247,6 @@ footer{
     margin-left: -403px;
   }
   .footer-logo{
-    margin-left: -330px;
-  }
-  .btn{
     margin-left: -330px;
   }
 }
