@@ -8,9 +8,9 @@ body{
   position: absolute;
   width: 1200px;
   height: 665px;
-  margin-left: 338px;
+  left: 338px;
   top: 207px;
-  z-index: 999;
+  z-index: 9999;
 }
 .logo1{
   background: url('../img/logo-SiteOk21.png') no-repeat;
@@ -59,7 +59,7 @@ body{
   height: 57px;
   left: 843px;
   top: 700px;
-  z-index: -1;
+  z-index: 999;
 
 }
 .btn{
@@ -180,7 +180,7 @@ footer{
   position: absolute;
   width: 90px;
   height: 31px;
-  left: 1777px;
+  left: 920px;
   top: 5px;
   background: url('../img/footer-logo.png');
 }
@@ -215,4 +215,41 @@ footer{
   left: 542px;
   top: 1796px;
   background: url('../img/greentick.png');
+}
+@media screen and (max-width: 1600px){
+  .ine{
+    margin-left: -283px;
+  }
+  .venus-img{
+    margin-left: -283px;
+  }
+  .inf{
+      margin-left: -283px;
+  }
+  .footer-logo{
+    margin-left: -283px;
+  }
+  .btn{
+    margin-left: -283px;
+  }
+}
+@media screen and (max-width: 1300px){
+  .ine{
+    margin-left: -330px;
+  }
+  .venus-img{
+    margin-left: -530px;
+  }
+  .inf{
+    margin-left: -330px;
+  }
+  .mars-img{
+    margin-left: -403px;
+  }
+  .footer-logo{
+    margin-left: -330px;
+  }
+  .btn{
+    margin-left: -330px;
+  }
 }
