@@ -1,8 +1,8 @@
 $(function(){
   $('body').append('<button class="btn" />');
   $('.btn').click(function(){
-    $('body').animate({'scrollTop': 1286}, 3000);
-    $('html').animate({'scrollTop': 1286}, 3000);
+    $('body').animate({'scrollTop': 1326}, 3000);
+    $('html').animate({'scrollTop': 1326}, 3000);
 });
 });
 $(function(){
