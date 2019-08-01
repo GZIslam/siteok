@@ -25,6 +25,9 @@ body{
 @-webkit-keyframes rot{
   100%{transform: rotate(360deg);}
 }
+@-webkit-keyframes rot1{
+  100%{transform: rotate(-360deg);}
+}
 .star3{
   background: url('../img/logo-SiteOk3star.png') no-repeat;
   position: absolute;
@@ -110,6 +113,7 @@ body{
   line-height: 32px;
   text-align: center;
   color: #FFFFFF;
+  text-shadow: 0px 2px 4px #000000;
 }
 footer{
   position: absolute;
@@ -124,7 +128,53 @@ footer{
   height: 47px;
   margin-top: 5px;
   opacity: 0;
-
+}
+.star-bg-1{
+  background: url('../img/logo-SiteOk3star.png');
+  position: absolute;
+  width: 70%;
+  height: 961px;
+  left: 100px;
+  top: 738px;
+  z-index: -2222;
+}
+.star-bg-2{
+  background: url('../img/logo-SiteOk3star.png');
+  position: absolute;
+  width: 95%;
+  height: 961px;
+  left: 2px;
+  top: 1093px;
+  z-index: -2222;
+}
+.star-bg-3{
+  background: url('../img/logo-SiteOk3star.png');
+  position: absolute;
+  width: 100%;
+  height: 533px;
+  top: 1700px;
+  z-index: -2222;
+}
+.mars-img{
+  background: url('../img/mars.png');
+  position: absolute;
+  width: 561px;
+  height: 463px;
+  left: 99px;
+  top: 1239px;
+  -webkit-animation: linear 77s rot1 infinite;
+  -moz-animation: linear 77s rot1 infinite;
+}
+.venus-img{
+  background: url('../img/planet.png') no-repeat;
+  position: absolute;
+  width: 318px;
+  height: 299px;
+  left: 1476px;
+  top: 1818px;
+  z-index: -1;
+  -webkit-animation: linear 177s rot infinite;
+  -moz-animation: linear 177s rot infinite;
 }
 .footer-logo{
   position: absolute;
