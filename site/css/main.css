@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.logo{
+  background: url('../img/logo-SiteOk2.png') no-repeat;
+  position: absolute;
+  width: 1200px;
+  height: 665px;
+  margin-left: 338px;
+  top: 207px;
+  z-index: 999;
+}
+.logo1{
+  background: url('../img/logo-SiteOk21.png') no-repeat;
+  position: absolute;
+  width: 382px;
+  height: 362px;
+  left: 510px;
+  top: 258px;
+  -webkit-animation: linear 20s rot infinite;
+  -moz-animation: linear 20s rot infinite;
+}
+@-webkit-keyframes rot{
+  100%{transform: rotate(360deg);}
+}
+.star3{
+  background: url('../img/logo-SiteOk3star.png') no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+.star2{
+  background: url('../img/logo-SiteOk2star.png') no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  top: 127px;
+}
+.star1{
+  background: url('../img/logo-SiteOk1star.png') no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  top: 341px;
+}
+.click{
+  background: url('../img/click.png') no-repeat;
+  position: absolute;
+  width: 234px;
+  height: 57px;
+  left: 843px;
+  top: 700px;
+  z-index: -1;
+
+}
+.btn{
+  position: absolute;
+  width: 134px;
+  height: 57px;
+  left: 893px;
+  top: 700px;
+  opacity: 0;
+  background-color: white;
+  z-index: 999;
+}
+.main-info h4{
+  position: absolute;
+  width: 87px;
+  height: 25px;
+  left: 925px;
+  top: 1672px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+}
+.main-info h1{
+  position: absolute;
+  width: 280px;
+  height: 32px;
+  left: 820px;
+  top: 1715px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.main-info p{
+  position: absolute;
+  width: 773px;
+  height: 64px;
+  left: 578px;
+  top: 1735px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+footer{
+  position: absolute;
+  width: 100%;
+  height: 49px;
+  left: 0px;
+  top: 2236px;
+  background: #0C0C0C;
+}
+.btn1{
+  width: 100%;
+  height: 47px;
+  margin-top: 5px;
+  opacity: 0;
+
+}
+.footer-logo{
+  position: absolute;
+  width: 90px;
+  height: 31px;
+  left: 1777px;
+  top: 5px;
+  background: url('../img/footer-logo.png');
+}
+.tick{
+  position: absolute;
+  width: 23px;
+  height: 27px;
+  left: 542px;
+  top: 1763px;
+  background: url('../img/greentick.png');
+}
+.zakaz{
+  background: url('../img/zakaz.png');
+  position: absolute;
+  width: 234px;
+  height: 57px;
+  left: 832px;
+  top: 1840px;
+}
+.logo-vk{
+  background: url('../img/vk-icon.png');
+  position: absolute;
+  width: 65px;
+  height: 60px;
+  left: 1066px;
+  top: 1837px;
+}
+.tick1{
+  position: absolute;
+  width: 23px;
+  height: 27px;
+  left: 542px;
+  top: 1796px;
+  background: url('../img/greentick.png');
+}
